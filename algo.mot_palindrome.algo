@@ -1,0 +1,14 @@
+FUNCTION function_name(parameters) : return_type
+VAR
+  mot init = 0
+  mot fin = length(mot) - 1
+BEGIN  
+    IF (length(mot) <= 1) THEN
+        return True
+    END_IF 
+    WHILE (mot init == mot fin) DO
+        return True 
+    mot init = mot fin + 1
+    mot fin = mot fin - 1
+    END_WHILE   
+END
